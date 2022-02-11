@@ -1,5 +1,7 @@
 package br.com.java.heranca;
 
+import br.com.java.poliformismo.ControlePonto;
+
 public class TestaFuncionarios {
 	
 	public static void main(String[] args) {
@@ -38,5 +40,8 @@ public class TestaFuncionarios {
 		System.out.println("Salário: " + s.getSalario());
 		System.out.println("Estação de trabalho: " + s.getRamal());
 		System.out.println("Bonificação: " + s.calcularBonificacao());
+
+		ControlePonto cp = new ControlePonto();
+		cp.registrarEntrada(g);
 	}
 }
