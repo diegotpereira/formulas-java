@@ -20,5 +20,7 @@ public class App {
         percentual = (float) ((obterPontos * 100)/totalPontos);
 
         System.out.println("O percentual dos ponto é: " + percentual + "%");
+
+        System.exit(0);
     }
 }
