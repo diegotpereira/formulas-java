@@ -2,17 +2,17 @@ package br.com.java.conta;
 
 public class Conta {
     
-    private Double saldo;
+    private double saldo;
 
-    public Double getSaldo() {
+    public double getSaldo() {
         return saldo;
     }
 
-    public void setSaldo(Double saldo) {
+    public void setSaldo(double saldo) {
         this.saldo = saldo;
     }
 
-    public void depositar(Double valor) {
+    public void depositar(double valor) {
         saldo += valor;
     }
 
