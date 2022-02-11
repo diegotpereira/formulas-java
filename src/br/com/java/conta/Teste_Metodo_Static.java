@@ -1,4 +1,4 @@
-package br.com.java;
+package br.com.java.conta;
 
 public class Teste_Metodo_Static {
     

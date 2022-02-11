@@ -21,6 +21,8 @@ public class App {
 
         System.out.println("O percentual dos ponto é: " + percentual + "%");
 
+		teclado.close();
+
         System.exit(0);
     }
 }

@@ -1,4 +1,4 @@
-package br.com.java;
+package br.com.java.conta;
 
 public class Conta {
     
