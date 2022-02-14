@@ -24,8 +24,8 @@ public class Array {
 
 
 		//System.out.println(numeros[99]);
-		//System.out.println(numerosA[1]);
-		//System.out.println(numerosB[1]);
+		System.out.println(numerosA[1]);
+		System.out.println(numerosB[1]);
 		//System.out.println(numeros);
 
 		imprimeArray();
@@ -61,7 +61,7 @@ public class Array {
 	public static void imprimeArrayForeach() {
 		int [] numerosD = {11, 3};
 		for(int numero : numerosD) {
-			//System.out.println(numero);
+			System.out.println(numero);
 		}
 	}
 
